@@ -5,12 +5,16 @@
 	import '../app.css';
 	import Header from './Header.svelte';
 	import Footer from './Footer.svelte';
+	import PageTransition from './PageTransition.svelte';
+	export let data;
 </script>
 
 <div class="layout">
 	<Header />
 	<main>
-		<slot />
+		<PageTransition url={data.url}>
+			<slot />
+		</PageTransition>
 	</main>
 	<Footer />
 </div>

@@ -8,6 +8,8 @@ categories:
 published: true
 ---
 
+## Table of Contents
+
 ## Svelte
 
 media inside **static** folder are available at "/".

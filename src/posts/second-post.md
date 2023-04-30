@@ -12,4 +12,4 @@ published: true
 
 media inside **static** folder are available at "/".
 
-[favicon](/favicon.png)
+![favicon](/favicon.png)

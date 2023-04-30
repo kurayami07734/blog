@@ -33,6 +33,7 @@
 		.links {
 			display: flex;
 			gap: var(--size-7);
+			margin-block: 0;
 		}
 	}
 </style>
